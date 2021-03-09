@@ -1,0 +1,28 @@
+
+div{
+    height: 110px;
+    background-color: burlywood;
+    padding-top: 2rem;
+}
+
+h1 {
+    font-family: "sans-serif";
+    text-align: center;
+
+}
+
+form {
+    height: 600px;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: bisque;
+}
+
+label{
+    font-family: "Arial";
+    font-size: small;
+}
+
+select{
+    width: 200px;
+}
