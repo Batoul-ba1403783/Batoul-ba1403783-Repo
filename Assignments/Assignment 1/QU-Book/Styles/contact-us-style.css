@@ -1,0 +1,99 @@
+body {
+    background-color: burlywood;
+}
+
+.contactInfo {
+    color: white;
+}
+
+.contactInfo h3 {
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.contactInfo ul li {
+    list-style: none;
+}
+
+
+.formItems {
+    background-color: #f9feff;
+    padding-left: 20px;
+}
+
+.formItems h3 {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.formItems form input[type="text"], input[type="email"], input[type="number"], textarea {
+    border: 2px solid #4b8a6a;
+    padding: 10px;
+    width: 275px;
+}
+
+textarea {
+    width: 595px;
+    height: 100px;
+}
+
+.formItems form p {
+    padding-left: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+
+form p button {
+    background-color: #10340f;
+    color: white;
+    display: inline;
+    cursor: pointer;
+    padding: 10px 290px;
+    text-decoration: none;
+}
+
+form p label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+
+    .heading {
+        text-align: center;
+    }
+
+    .contactInfo {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .contactInfo ul{
+        align-self: center;
+    }
+
+    .contactInfo h3 {
+        align-self: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+}

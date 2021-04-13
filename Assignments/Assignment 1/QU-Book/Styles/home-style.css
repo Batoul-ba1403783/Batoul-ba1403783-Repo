@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #fcf6ef;
+    background-color: beige;
     font-family: "Times New Roman";
 }
 
@@ -21,79 +21,83 @@ nav {
     flex-direction: column;
 }
 
-.logo {
-    width: 200px;
-    height: 200px;
+.logo3 {
+    width: 250px;
+    height: 230px;
 }
 
-.right-nav li {
+.nav1 li {
     display: inline;
     position: absolute;
     top: 0;
 }
 
-.right-nav li:nth-child(1) {
+.nav1 li:nth-child(1) {
     right: 148px;
 }
 
-.right-nav li:nth-child(2) {
+.nav1 li:nth-child(2) {
     right: 48px;
 }
 
-.right-nav li a {
+.nav1 li a {
     text-decoration: none;
-    color: #826e8e;
     font-size: 20px;
 }
 
-.bottom-nav {
-    border: 8px solid #10340f;
-    margin-left: 250px;
+.nav2 {
+    border: 5px solid darkslategrey;
+    margin-left: 400px;
     margin-bottom: 10px;
-    background-color: #10340f;
+    margin-right: 20px;
+    background-color: darkslategrey;
 }
 
-.bottom-nav li {
+.nav2 li {
     list-style: inline;
     display: inline;
 }
 
-.bottom-nav li a {
-    text-decoration: none;
-    color: white;
-    background-color: #10340f;
-    font-size: 20px;
+.nav2{
+
 }
 
-.bottom-nav li:nth-child(1) {
+.nav2 li a {
+    text-decoration: none;
+    color: white;
+    background-color: darkslategrey;
+    font-size: 19px;
+}
+
+.nav2 li:nth-child(1) {
     margin-left: 20px;
     margin-right: 25px;
 }
 
-.bottom-nav li:nth-child(2) {
+.nav2 li:nth-child(2) {
     margin-right: 25px;
 }
 
-.bottom-nav li a:hover {
+.nav2 li a:hover {
     font-size: 22px;
 }
 
-.title {
+.Welcoming {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 33px;
 }
 
 
-.grid-container {
+.container2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     background-color: #fcf6ef;
 }
 
-.grid-items {
+.gridContents {
     margin: 10px;
     padding: 8px;
     display: flex;
@@ -102,12 +106,12 @@ nav {
     background-color: #efefef;
 }
 
-.grid-items img {
+.gridContents img {
     width: 190px;
     height: 250px;
 }
 
-.grid-items h3 {
+.gridContents h3 {
     display: block;
     background-color: #efefef;
     margin-top: 10px;
@@ -115,14 +119,14 @@ nav {
     font-style: italic;
 }
 
-.grid-items p {
+.gridContents p {
     text-align: center;
     display: block;
     background-color: #efefef;
 
 }
 
-.grid-items button {
+.gridContents button {
     display: inline-block;
     width: 80px;
     margin-top: 10px;
@@ -131,9 +135,9 @@ nav {
 
 footer p {
     display: block;
-    background-color: #10340f;
+    background-color: darkslategrey;
     color: white;
-    padding: 20px;
+    padding: 19px;
 }
 
 
@@ -148,79 +152,99 @@ footer p {
         margin: 20px;
     }
 
-    .logo {
+    .logo3 {
         align-self: center;
         width: 20em;
         hight: 200em;
-        border-style: dotted;
-        border-color: #8a010c;
         margin-bottom: 10px;
     }
 
-    .bottom-nav {
+    .nav2 {
         align-self: center;
         display: flex;
         flex-direction: column;
         margin: auto;
     }
 
-    .bottom-nav li {
+    .nav2 li {
         align-self: center;
         border: 1px  solid #10340f;
         background-color: #10340f;
     }
-    .bottom-nav li:nth-child(1), .bottom-nav li:nth-child(2) {
+
+    .nav2 li:nth-child(1){
         margin-left: 200px;
         margin-right: 200px;
     }
-    .right-nav {
+
+    .nav2 li:nth-child(2) {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .nav1 {
         align-self: center;
         display: flex;
         align-items: center;
     }
-    .right-nav li {
+    .nav1 li {
         align-items: center;
         display: flex;
         flex-direction: column;
         align-self: center;
         margin-bottom: 20px;
     }
-    .right-nav li:nth-child(1) {
+    .nav1 li:nth-child(1) {
         margin-top: 340px;
         margin-right: 40px;
     }
-    .right-nav li:nth-child(2) {
+    .nav1 li:nth-child(2) {
         margin-right: 130px;
         margin-top: 380px;
     }
 
-    .title {
+    .Welcoming {
         margin-top: 70px;
     }
 
-    .grid-container {
+    .container2 {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .grid-items {
-        margin: 5px;
-        padding: 1px;
+    .gridContents {
+        margin: 6px;
+        padding: 2px;
         display: flex;
         flex-direction: column;
     }
 
-    .grid-items img, .grid-items h3, .grid-items p, .grid-items button{
+    .gridContents img{
         text-align: center;
         display: block;
         background-color: #efefef;
     }
 
-    .grid-items button {
+    .gridContents h3{
+        text-align: center;
+        display: block;
+        background-color: #efefef;
+    }
+
+    .gridContents p{
+        text-align: center;
+        display: block;
+        background-color: #efefef;
+    }
+
+    .gridContents button{
+        text-align: center;
+        display: block;
+        background-color: #efefef;
+    }
+
+    .gridContents button {
         display: inline-block;
-        width: 80px;
-        margin-top: 10px;
-        background-color: white;
+        width: 90px;
     }
 
     footer p {
