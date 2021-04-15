@@ -3,12 +3,7 @@
 import mongoose from "mongoose";
 
 const Schema = mongoose.Schema
-//
-// const options = {
-//     toJSON :{
-//         virtuals : true
-//     }
-// }
+
 
 const customerSchema = new Schema({
     id:{
@@ -25,13 +20,6 @@ const customerSchema = new Schema({
         required: [true, 'Gender is a required field']
     }
 })
-//
-// customerSchema.virtual('id').get(function () {
-//     return this.id
-// })
-//
-// customerSchema.virtual('name').get(function () {
-//     return this.name
-// })
+
 
 export default mongoose.model('Customer', customerSchema)

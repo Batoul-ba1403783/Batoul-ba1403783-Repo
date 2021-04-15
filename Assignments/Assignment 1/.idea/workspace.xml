@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d06e34b7-b5ec-49dc-934d-30eae3509668" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment-1 TestingDoc-Grading-Sheet.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QU-Book/Styles/contact-us-styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QU-Book/Styles/index-styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QU-Book/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/QU-Book/contact-us.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QU-Book/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CovidStatTracking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment 5/ProductManagementApp" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -51,6 +46,8 @@
       <workItem from="1615287954851" duration="2443000" />
       <workItem from="1618348499623" duration="24000" />
       <workItem from="1618348634602" duration="7012000" />
+      <workItem from="1618356875557" duration="611000" />
+      <workItem from="1618404817202" duration="42000" />
     </task>
     <servers />
   </component>
@@ -67,5 +64,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
